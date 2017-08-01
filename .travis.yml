@@ -45,12 +45,3 @@ install:
 
 script:
     - sbt native-build android:package-release
-
-deploy:
-   provider: releases 
-   file: "/home/travis/build/JohnFreeman9/shadowsocksr-android/target/android/output/shadowsocksr-release.apk"
-   skip_cleanup: true
-   api-key:
-   secure: ""
-   on:
-     branch: nokcp
