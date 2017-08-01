@@ -55,4 +55,3 @@ deploy:
    on:
     repo: JohnFreeman9/shadowsocksr-android
     branch: nokcp
-     tags: true
